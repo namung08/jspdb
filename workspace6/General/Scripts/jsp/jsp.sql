@@ -10,3 +10,6 @@ SELECT * FROM car;
 -- 테이블에 데이터 넣기
 INSERT INTO car VALUES ('1','Benz','black',350000000);
 INSERT INTO car VALUES ('2','Benz','White',350000000);
+-- sysdate 날짜
+-- dual 더미테이블
+SELECT sysdate FROM dual;
