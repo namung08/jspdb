@@ -13,3 +13,7 @@ INSERT INTO car VALUES ('2','Benz','White',350000000);
 -- sysdate 날짜
 -- dual 더미테이블
 SELECT sysdate FROM dual;
+
+SELECT * FROM car;
+
+SELECT * FROM CAR c WHERE CARNUM = '3';
