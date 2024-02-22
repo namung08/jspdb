@@ -32,3 +32,11 @@ INSERT INTO MEMBER VALUES ('이순신', 460);
 SELECT * FROM MEMBER;
 
 SELECT * FROM MEMBER WHERE name = '홍길동';
+
+CREATE TABLE tbl_member (
+	userid varchar2(200) PRIMARY KEY,
+	userpw varchar2(200),
+	username varchar2(200),
+	usergender varchar2(100),
+	userphone varchar2(100)
+);
