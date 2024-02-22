@@ -40,3 +40,6 @@ CREATE TABLE tbl_member (
 	usergender varchar2(100),
 	userphone varchar2(100)
 );
+
+SELECT * FROM TBL_MEMBER ;
+INSERT INTO TBL_MEMBER VALUES ('admin','admin1234','관리자','M','01023456789');
