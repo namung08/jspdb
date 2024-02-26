@@ -43,3 +43,40 @@ CREATE TABLE tbl_member (
 
 SELECT * FROM TBL_MEMBER ;
 INSERT INTO TBL_MEMBER VALUES ('admin','admin1234','관리자','M','01023456789');
+
+SELECT * FROM TBL_MEMBER 
+WHERE userid = 'admin' AND userpw='admin1234';
+SELECT * FROM TBL_MEMBER WHERE userid='admin';
+
+
+
+SELECT * FROM TBL_MEMBER 
+WHERE userid = 'amdin';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
