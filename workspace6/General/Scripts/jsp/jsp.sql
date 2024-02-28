@@ -50,10 +50,17 @@ SELECT * FROM TBL_MEMBER WHERE userid='admin';
 
 
 
-SELECT * FROM TBL_MEMBER 
-WHERE userid = 'amdin';
+SELECT * FROM TBL_MEMBER WHERE userid = 'amdin';
 
+-- 테이블에 컬럼 추가
+ALTER TABLE TBL_MEMBER  ADD (
+	zipcode		varchar2(100),
+	addr		varchar2(300),
+	addrdetail	varchar2(1000),
+	addrdetc	varchar2(500)
+);
 
+SELECT * FROM TBL_MEMBER ;
 
 
 
